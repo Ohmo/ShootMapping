@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: C:\Users\Ohmo\Desktop\Shoot!_MapData\maps\TestMap.map
+Output file: C:\Users\Ohmo\Desktop\Shoot!_MapData\maps\TestMap.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+           90 faces
+           15 brushes
+           29 entities
+            2 unique texnames
+           52 texinfo
+
+Opened WAD: C:/Users/Ohmo/Desktop/Shoot!_MapData/CustomWad1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           15 brushes
+           36 planes
+---- CSGFaces ----
+           90 brushfaces
+          102 csgfaces
+          102 mergedfaces
+---- SolidBSP ----
+          209 split nodes
+           68 solid leafs
+          142 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+          910 leaffaces
+          898 nodefaces
+---- Portalize ----
+          142 vis leafs
+          142 vis clusters
+          311 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-572 -768 60), no filling performed.
+Leak file written to C:\Users\Ohmo\Desktop\Shoot!_MapData\maps\TestMap.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (400 -512 72), no filling performed.
+Processing hull 2...
+*** WARNING 10: Reached occupant at (400 -512 72), no filling performed.
+---- WriteBSPFile ----
+Wrote C:\Users\Ohmo\Desktop\Shoot!_MapData\maps\TestMap.bsp
+           83 planes             1660
+         1003 vertexes          12036
+          209 nodes              5016
+           44 texinfo            1760
+          898 faces             17960
+          376 clipnodes          3008
+          143 leafs              4004
+          910 marksurfaces       1820
+         3592 surfedges         14368
+         2057 edges              8228
+            2 textures         108892
+              lightdata             0
+              visdata               0
+              entdata            2179
+
+0.175 seconds elapsed
+Peak memory usage: 2956112 (2.8M)

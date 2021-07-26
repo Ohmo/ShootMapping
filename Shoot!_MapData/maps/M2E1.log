@@ -1,0 +1,64 @@
+---- qbsp / ericw-tools v0.18.1-32-g6660c5f ----
+Input file: D:\dAB\steamapps\common\Shoot!\Shoot!_MapData\maps\M2E1.map
+Output file: D:\dAB\steamapps\common\Shoot!\Shoot!_MapData\maps\M2E1.bsp
+
+---- LoadMapFile ----
+*** WARNING 06: No info_player_deathmatch entities in level
+          492 faces
+           82 brushes
+           25 entities
+            9 unique texnames
+          285 texinfo
+
+Opened WAD: D:/dAB/steamapps/common/Shoot!/Shoot!_MapData/CustomWad1.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           77 brushes
+          134 planes
+---- CSGFaces ----
+          462 brushfaces
+          500 csgfaces
+          459 mergedfaces
+---- SolidBSP ----
+          987 split nodes
+          365 solid leafs
+          623 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2607 leaffaces
+         2455 nodefaces
+---- Portalize ----
+          623 vis leafs
+          623 vis clusters
+         1720 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (0 -800 40), no filling performed.
+Leak file written to D:\dAB\steamapps\common\Shoot!\Shoot!_MapData\maps\M2E1.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (20 3024 108), no filling performed.
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote D:\dAB\steamapps\common\Shoot!\Shoot!_MapData\maps\M2E1.bsp
+          315 planes             6300
+         2994 vertexes          35928
+         1017 nodes             24408
+          244 texinfo            9760
+         2485 faces             49700
+         1615 clipnodes         12920
+          654 leafs             18312
+         2637 marksurfaces       5274
+         9930 surfedges         39720
+         6171 edges             24684
+            9 textures         194880
+              lightdata             0
+              visdata               0
+              entdata            1850
+
+0.189 seconds elapsed
+Peak memory usage: 9257402 (8.8M)
